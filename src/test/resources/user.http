@@ -1,0 +1,34 @@
+
+### create new User
+POST http://127.0.0.1:8080/user/register
+Content-Type: application/json
+
+{
+    "id":"5ad2379ac061f00e2834d87d",
+    "email":"vardan.momjyan@gmayl.com",
+    "username":"vardan",
+    "password":"vardan",
+    "fullName":"Vardan Momjyan",
+    "avatarUrl":"https://mymodernmet.com/wp/wp-content/uploads/2017/01/animal-selfies-18.jpg",
+    "gender":"Male",
+    "bio":"asdfjkl;",
+    "regDate":"2012-04-23T18:25:43.511Z"
+}
+###
+
+### create new User
+POST http://127.0.0.1:8080/user/register
+Content-Type: application/json
+
+{
+    "id":"hvfa6sdasd61200ecvb4d87a",
+    "email":"aramayis.sahakyan@gmail.com",
+    "username":"aramayis",
+    "password":"sahakyan",
+    "fullName":"Aramayis Sahakyan",
+    "avatarUrl":"http://mamul.am/images/pics/170715/aramayis-sahakyan-u71065-1.jpg",
+    "gender":"Male",
+    "bio":"asdfjkl;",
+    "regDate":"2012-04-23T18:25:43.511Z"
+}
+###

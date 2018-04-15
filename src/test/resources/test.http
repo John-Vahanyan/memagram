@@ -1,0 +1,26 @@
+### test
+GET http://127.0.0.1:8080/feed/post/test
+Content-Type: application/json
+
+###
+
+### create post
+POST http://127.0.0.1:8080/feed/post/create
+Content-Type: application/json
+
+{
+    "url":"1616407568416717",
+    "description":"Kapik",
+    "tags":["18+","Black"],
+    "fileType":"IMAGE",
+    "uploadDate":"2012-04-23T18:25:43.511Z",
+    "uploader":"https://res.cloudinary.com/johnvahanyan/image/upload/v1522419188/svozmeilj26ewqtylglt.jpg",
+    "likedUsers":{
+         "name":"Yerevan"
+    },
+    "reportedUsers":{
+         "name":"Pudel"
+    },
+    "verificationStatus":"Uzeq prcnem"
+}
+###

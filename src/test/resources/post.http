@@ -1,0 +1,125 @@
+
+### create new post
+POST http://127.0.0.1:8080/post/create
+Content-Type: application/json
+
+{
+    "url":"https://memegenerator.net/img/instances/76281167/mess-with-crabbo-you-get-stabbo.jpg",
+    "description":"Kapik",
+    "tags":["18+","Black"],
+    "fileType":"IMAGE",
+    "uploadDate":"2012-04-23T18:25:43.511Z",
+    "uploader":{
+               "id":"hvfa6sdasd61200ecvb4d87a",
+               "email":"aramayis.sahakyan@gmail.com",
+               "username":"aramayis",
+               "password":"sahakyan",
+               "fullName":"Aramayis Sahakyan",
+               "avatarUrl":"http://mamul.am/images/pics/170715/aramayis-sahakyan-u71065-1.jpg",
+               "gender":"IMAGE",
+               "bio":"asdfjkl;",
+               "regDate":"2012-04-23T18:25:43.511Z"
+       },
+    "verificationStatus":"Approved"
+}
+###
+
+### create new post
+POST http://127.0.0.1:8080/post/create
+Content-Type: application/json
+
+{
+    "url":"https://media1.tenor.com/images/58c17d8afe2376aa6417ddd48708e838/tenor.gif?itemid=8710937",
+    "description":"Pink Guy",
+    "tags":["18+","Black"],
+    "fileType":"IMAGE",
+    "uploadDate":"2012-04-23T18:25:43.511Z",
+    "uploader":{
+                "id":"hvfa6sdasd61200ecvb4d87a",
+                "email":"deepdarkfanta.sahakyan@gmail.com",
+                "username":"aramayis",
+                "password":"sahakyan",
+                "fullName":"Pink Guy ",
+                "avatarUrl":"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a288e946906757.586a393b6be47.jpg",
+                "gender":"MALE",
+                "bio":"GOD;",
+                "regDate":"2012-04-23T18:25:43.511Z"
+        },
+    "verificationStatus":"Approved"
+}
+###
+
+### create new post
+POST http://127.0.0.1:8080/post/create
+Content-Type: application/json
+
+{
+    "url":"https://wallpaperbrowse.com/media/images/pexels-photo-248159.jpeg",
+    "description":"Vardanik",
+    "tags":["18+","Black"],
+    "fileType":"IMAGE",
+    "uploadDate":"2012-04-23T18:25:43.511Z",
+    "uploader":{
+                 "id":"hvfa6sdasd61200ecvb4d87a",
+                 "email":"aramayis.sahakyan@gmail.com",
+                 "username":"aramayis",
+                 "password":"sahakyan",
+                 "fullName":"Aramayis Sahakyan",
+                 "avatarUrl":"http://mamul.am/images/pics/170715/aramayis-sahakyan-u71065-1.jpg",
+                 "gender":"IMAGE",
+                 "bio":"asdfjkl;",
+                 "regDate":"2012-04-23T18:25:43.511Z"
+    },
+    "verificationStatus":"Approved"
+}
+###
+
+### create new post
+POST http://127.0.0.1:8080/post/create
+Content-Type: application/json
+
+{
+    "url":"https://memegenerator.net/img/instances/76281167/mess-with-crabbo-you-get-stabbo.jpg",
+    "description":"Black Mafia",
+    "tags":["18+","Black"],
+    "fileType":"IMAGE",
+    "uploadDate":"2012-04-23T18:25:43.511Z",
+    "uploader":{
+        "id":"hvfa6sdasd61200ecvb4d87a",
+        "email":"aramayis.sahakyan@gmail.com",
+        "username":"aramayis",
+        "password":"sahakyan",
+        "fullName":"Aramayis Sahakyan",
+        "avatarUrl":"http://mamul.am/images/pics/170715/aramayis-sahakyan-u71065-1.jpg",
+        "gender":"IMAGE",
+        "bio":"asdfjkl;",
+        "regDate":"2012-04-23T18:25:43.511Z"
+    },
+    "verificationStatus":"Approved"
+}
+###
+
+### create new post
+POST http://127.0.0.1:8080/post/create
+Content-Type: application/json
+
+{
+    "url":"https://www.hdwallpapers.in/walls/horizon_zero_dawn_london_4k_8k-wide.jpg",
+    "description":"Black Mafia",
+    "tags":["18+","Black"],
+    "fileType":"IMAGE",
+    "uploadDate":"2012-04-23T18:25:43.511Z",
+    "uploader":{
+        "id":"hvfa6sdasd61200ecvb4d87a",
+        "email":"aramayis.sahakyan@gmail.com",
+        "username":"aramayis",
+        "password":"sahakyan",
+        "fullName":"Aramayis Sahakyan",
+        "avatarUrl":"http://mamul.am/images/pics/170715/aramayis-sahakyan-u71065-1.jpg",
+        "gender":"IMAGE",
+        "bio":"asdfjkl;",
+        "regDate":"2012-04-23T18:25:43.511Z"
+    },
+    "verificationStatus":"Approved"
+}
+###
