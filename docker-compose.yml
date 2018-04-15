@@ -1,0 +1,12 @@
+version : "2"
+services:
+  backend:
+    container_name : backend.memagram
+    image : hackathon-memegram
+    ports :
+      - 8080:8080
+  mongodb:
+    container_name : mongo.memagram
+    image : mongo
+    volumes :
+      - /usr/local/mongodb:/mongo_volume
