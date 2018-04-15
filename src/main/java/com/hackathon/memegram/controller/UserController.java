@@ -8,6 +8,7 @@ import com.hackathon.memegram.service.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Collections;
 import java.util.List;
 
 @RestController
@@ -25,8 +26,9 @@ public class UserController {
         String id = userService.registerUser(user);
         return ResponseEntity.ok(id);
     }
+
     @GetMapping(value = "/get/{userId}")
-    public ResponseEntity<User> getUserByUserId(@PathVariable("userId")String userId){
+    public ResponseEntity<User> getUserByUserId(@PathVariable("userId") String userId) {
         User user = userService.getUserByUserId(userId);
         return ResponseEntity.ok(user);
     }
@@ -80,11 +82,12 @@ public class UserController {
     @GetMapping("/feed/{userId}")
     public ResponseEntity<List<Post>> getNewsFeed(@PathVariable("userId") String userId) {
         List<Post> posts = userService.getFeed(userId);
+        Collections.reverse(posts);
         return ResponseEntity.ok(posts);
     }
 
     @GetMapping(value = "/full/info")
-    public ResponseEntity<UserDto> getFullInfo(@RequestParam("userId") String  userId){
+    public ResponseEntity<UserDto> getFullInfo(@RequestParam("userId") String userId) {
         UserDto userDto = userService.getUserFullInfoById(userId);
         return ResponseEntity.ok(userDto);
     }
