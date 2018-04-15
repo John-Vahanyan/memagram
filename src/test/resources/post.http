@@ -1,6 +1,6 @@
 
 ### create new post
-POST http://127.0.0.1:8080/post/create
+POST http://memagram.duckdns.org:8080/post/create
 Content-Type: application/json
 
 {
@@ -108,6 +108,31 @@ Content-Type: application/json
     "description":"Black Mafia",
     "tags":["18+","Black"],
     "fileType":"IMAGE",
+    "uploadDate":"2012-04-23T18:25:43.511Z",
+    "uploader":{
+        "id":"hvfa6sdasd61200ecvb4d87a",
+        "email":"aramayis.sahakyan@gmail.com",
+        "username":"aramayis",
+        "password":"sahakyan",
+        "fullName":"Aramayis Sahakyan",
+        "avatarUrl":"http://mamul.am/images/pics/170715/aramayis-sahakyan-u71065-1.jpg",
+        "gender":"IMAGE",
+        "bio":"asdfjkl;",
+        "regDate":"2012-04-23T18:25:43.511Z"
+    },
+    "verificationStatus":"Approved"
+}
+###
+
+### create new post
+POST http://127.0.0.1:8080/post/create
+Content-Type: application/json
+
+{
+    "url":"https://www.w3schools.com/tags/movie.mp4",
+    "description":"Black Mafia",
+    "tags":["18+","Black"],
+    "fileType":"VIDEO",
     "uploadDate":"2012-04-23T18:25:43.511Z",
     "uploader":{
         "id":"hvfa6sdasd61200ecvb4d87a",

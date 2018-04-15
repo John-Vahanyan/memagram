@@ -58,12 +58,7 @@ public class PostController {
     }
 
     @RequestMapping(value = "/save/image", method = RequestMethod.POST)
-    public ResponseEntity<String> saveImage(@RequestParam MultipartFile file, @RequestParam String email) throws Exception {
-
-        User user = userService.getUserByEmail(email);
-        if (user == null){
-
-        }
+    public ResponseEntity<String> saveImage(@RequestParam MultipartFile file) throws Exception {
         return ResponseEntity.ok(postService.saveImageAndGetUrl(file));
     }
 
